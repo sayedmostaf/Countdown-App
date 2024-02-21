@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="PaddingScreen">25dp</dimen>
+    <dimen name="PaddingLarge">15dp</dimen>
+    <dimen name="PaddingMed">10dp</dimen>
+    <dimen name="PaddingSmall">5dp</dimen>
+    <dimen name="CornersLarge">24dp</dimen>
+    <dimen name="CornersSmall">12dp</dimen>
+    <dimen name="MarginMed">10dp</dimen>
+    <dimen name="MarginSmall">5dp</dimen>
+    <dimen name="MarginLarge">20dp</dimen>
+    <dimen name="TextSizeMed">18sp</dimen>
+    <dimen name="TextSizeLarge">40sp</dimen>
+    <dimen name="TextSizeSmall">14sp</dimen>
+</resources>

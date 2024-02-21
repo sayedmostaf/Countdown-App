@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    tools:context=".InputDateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/PaddingScreen">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/profile_image_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/primary"
+                app:cardCornerRadius="95dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="@dimen/MarginSmall"
+                    app:cardCornerRadius="95dp">
+
+                    <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/img_profile" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <EditText
+                android:id="@+id/name_field"
+                style="@style/editText"
+                android:layout_marginBottom="@dimen/MarginMed"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:maxLength="50" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/birthday_field"
+                style="@style/editText"
+                android:drawableEnd="@drawable/ic_calender"
+                android:focusable="false"
+                android:hint="@string/birthday" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/confirm_button"
+                style="@style/button" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
