@@ -27,7 +27,7 @@ class CountDataActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_count_data)
+        setContentView(R.layout.activity_count_date)
 
         // Retrieving data from intent
         val intent = intent
