@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Countdown"
         tools:targetApi="31">
         <activity
-            android:name=".CountDataActivity"
+            android:name=".CountDateActivity"
             android:exported="false" />
         <activity
             android:name=".InputDateActivity"

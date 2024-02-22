@@ -38,7 +38,7 @@ class InputDateActivity : ComponentActivity() {
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_input_data)
+        setContentView(R.layout.activity_input_date)
 
         // Find and set click listener for the profile image
         image = findViewById(R.id.profile_image)
@@ -73,7 +73,7 @@ class InputDateActivity : ComponentActivity() {
 
                     // Send data to CountDateActivity
                     val name = nameField.text.toString()
-                    val intent = Intent(this, CountDataActivity::class.java)
+                    val intent = Intent(this, CountDateActivity::class.java)
                     intent.putExtra("imageUri", selectedImageUri.toString())
                     intent.putExtra("name", name)
                     intent.putExtra("age", age)

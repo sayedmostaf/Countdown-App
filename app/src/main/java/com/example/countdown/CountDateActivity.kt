@@ -13,7 +13,7 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
-class CountDataActivity : AppCompatActivity() {
+class CountDateActivity : AppCompatActivity() {
     // Initializing UI elements
     private lateinit var nameView: TextView
     private lateinit var imageView: ImageView
