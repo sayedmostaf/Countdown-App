@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Countdown</string>
-    <string name="name">Name</string>
-    <string name="birthday">Birthday</string>
+    <string name="name">Enter Your Name</string>
+    <string name="birthday">Enter Your Birthday</string>
     <string name="confirm">Confirm</string>
     <string name="person_name">Sayed Mostafa</string>
     <string name="person_age">20</string>

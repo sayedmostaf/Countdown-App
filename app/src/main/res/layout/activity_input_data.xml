@@ -31,14 +31,16 @@
                     android:layout_width="140dp"
                     android:layout_height="140dp"
                     android:layout_margin="@dimen/MarginSmall"
+                    android:background="@color/background"
                     app:cardCornerRadius="95dp">
 
                     <ImageView
+                        android:background="@color/background"
                         android:id="@+id/profile_image"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/img_profile" />
+                         />
                 </androidx.cardview.widget.CardView>
 
             </androidx.cardview.widget.CardView>
